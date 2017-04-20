@@ -1,0 +1,25 @@
+{
+  "name": "express-humans",
+  "version": "0.0.1",
+  "description": "Express middleware for generating/responding a humans.txt file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilshidur/express-humans.git"
+  },
+  "keywords": [
+    "express",
+    "humans",
+    "humans.txt",
+    "middleware"
+  ],
+  "author": "Ilshidur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ilshidur/express-humans/issues"
+  },
+  "homepage": "https://github.com/Ilshidur/express-humans#readme"
+}
