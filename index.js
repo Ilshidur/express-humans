@@ -34,8 +34,8 @@ function middleware(config, opts) {
   return router;
 }
 
-function generateContent(humans) {
-
+function generateContent(config) {
+  return humans(config);
 }
 
 module.exports = middleware;
