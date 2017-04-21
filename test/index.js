@@ -6,7 +6,7 @@ var humans = require('../');
 
 var route = '/humans.txt';
 
-describe('express-humans', function() {
+describe('express-humans :', function() {
   it('should output empty string if no config', function(done) {
     supertest(humans())
       .get(route)
@@ -30,9 +30,9 @@ describe('express-humans', function() {
   });
 
 
-    describe('should work with an input config', function() {
+    describe('should work with an input config :', function() {
 
-      it('team', function(done) {
+      it('team - string', function(done) {
         supertest(humans({
           team: 'test'
         }))
@@ -43,6 +43,8 @@ describe('express-humans', function() {
             expect(res.text).to.equal('/* TEAM */\n\ntest');
             done();
           });
+      });
+      it('team - array', function(done) {
         supertest(humans({
           team: [
             'test'
@@ -56,7 +58,7 @@ describe('express-humans', function() {
             done();
           });
       });
-      it('thanks', function(done) {
+      it('thanks - string', function(done) {
         supertest(humans({
           thanks: 'test'
         }))
@@ -67,6 +69,8 @@ describe('express-humans', function() {
             expect(res.text).to.equal('/* THANKS */\n\ntest');
             done();
           });
+      });
+      it('thanks - array', function(done) {
         supertest(humans({
           thanks: [
             'test'
@@ -80,7 +84,7 @@ describe('express-humans', function() {
             done();
           });
       });
-      it('site', function(done) {
+      it('site - string', function(done) {
         supertest(humans({
           site: 'test'
         }))
@@ -91,6 +95,8 @@ describe('express-humans', function() {
             expect(res.text).to.equal('/* SITE */\n\ntest');
             done();
           });
+      });
+      it('site - array', function(done) {
         supertest(humans({
           site: [
             'test'
