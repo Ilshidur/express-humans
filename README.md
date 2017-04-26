@@ -14,8 +14,8 @@
 
 Inspired of [express-robots](https://www.npmjs.com/package/express-robots).
 
-[build-badge]: https://travis-ci.org/ilshidur/express-humans.svg
-[build-url]: https://travis-ci.org/ilshidur/express-humans
+[build-badge]: https://travis-ci.org/Ilshidur/express-humans.svg
+[build-url]: https://travis-ci.org/Ilshidur/express-humans
 [dependency-badge]: https://david-dm.org/ilshidur/express-humans.svg
 [dependency-url]: https://david-dm.org/ilshidur/express-humans
 [devdependency-badge]: https://david-dm.org/ilshidur/express-humans/dev-status.svg
