@@ -24,7 +24,7 @@ describe('express-humans :', function() {
       .end(function(err, res) {
         expect(res.status).to.equal(200);
         expect(res.headers['content-type']).to.equal('text/plain; charset=utf-8');
-        expect(res.text).to.equal('/* TEAM */\n\nChef: Ilshidur\n\n/* THANKS */\n\nName: NPM\n\n/* SITE */\n\nLast update: never');
+        expect(res.text).to.equal('/* TEAM */\n\nChef: Ilshidur\n\n\n/* THANKS */\n\nName: NPM\n\n\n/* SITE */\n\nLast update: never\n');
         done();
       });
   });

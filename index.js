@@ -24,11 +24,10 @@ function middleware(config, opts) {
     }
   }
 
-  var router = express.Router();
+  var router = express();
 
   router.get('/humans.txt', function(req, res, next) {
     res.header('Content-Type', 'text/plain');
-    console.log('ok');
     res.send(content);
   });
 
