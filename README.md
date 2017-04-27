@@ -7,6 +7,8 @@
 [![build status][build-badge]][build-url]
 [![downloads][downloads-badge]][downloads-url]
 
+[![NPM][npm-stats-badge]][npm-stats-url]
+
 > Express middleware for generating a humans.txt or responding with an existing file.
 
 *Development in progress ...*
@@ -27,3 +29,5 @@ Inspired of [express-robots](https://www.npmjs.com/package/express-robots).
 [build-url]: https://travis-ci.org/Ilshidur/express-humans
 [downloads-badge]: https://img.shields.io/npm/dt/express-humans.svg
 [downloads-url]: https://www.npmjs.com/package/express-humans
+[npm-stats-badge]: https://nodei.co/npm/express-humans.png?downloads=true&downloadRank=true
+[npm-stats-url]: https://nodei.co/npm/express-humans
