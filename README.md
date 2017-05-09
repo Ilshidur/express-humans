@@ -1,5 +1,7 @@
 # express-humans
 
+![stability-wip](https://img.shields.io/badge/stability-work_in_progress-lightgrey.svg)
+
 [![npm version][version-badge]][version-url]
 [![Known Vulnerabilities][vulnerabilities-badge]][vulnerabilities-url]
 [![dependency status][dependency-badge]][dependency-url]
