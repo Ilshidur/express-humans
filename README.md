@@ -15,6 +15,13 @@
 
 *Development in progress ...*
 
+## Development
+
+```
+npm run build # Or "yarn run build"
+npm test # Or "yarn test"
+```
+
 ## Credits
 
 Inspired of [express-robots](https://www.npmjs.com/package/express-robots).
