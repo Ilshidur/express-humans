@@ -13,11 +13,59 @@
 
 > Express middleware for generating a humans.txt or responding with an existing file.
 
-*Development in progress ...*
+## Usage
+
+First run `npm install express-humans`, then :
+
+```javascript
+const humans = require('express-humans');
+const express = require('express');
+
+const app = express();
+
+app.use(humans({
+  team: [
+    {
+      'Original developer': 'Hayden Bleasel',
+      Twitter: '@haydenbleasel'
+    }, {
+      Maintainer: 'Alexis Paques',
+      Github: '@AlexisTM'
+    }
+  ],
+  thanks: [
+    'Node',
+    'Gulp'
+  ],
+  site: {
+    'Standards': 'HTML5, CSS3',
+    'Components': 'jQuery, Normalize.css',
+    'Softwares': 'Atom, SublimeText'
+  },
+  note: 'Built with love by Hayden Bleasel.'
+}));
+
+app.listen(3000);
+```
+
+or :
+
+```javascript
+// Using the path of the humans.rxr file
+app.use(humans('./humans.txt'));
+```
+
+## API
+
+`humans(options)`
+
+* `options` : `String` or `Object`
+  * if `String` : the path of the humans.txt file to serve
+  * if `Object` : [the `humans-generator` package config](https://www.npmjs.com/package/humans-generator)
 
 ## Development
 
-```
+```bash
 npm run build # Or "yarn run build"
 npm test # Or "yarn test"
 ```
