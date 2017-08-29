@@ -51,7 +51,7 @@ app.listen(3000);
 or :
 
 ```javascript
-// Using the path of the humans.rxr file
+// Using the path of the humans.txt file
 app.use(humans('./humans.txt'));
 ```
 
