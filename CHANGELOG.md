@@ -1,5 +1,12 @@
 # league-sprites - change log
 
+# 1.0.2 (Sep. 5th 2017)
+
+## **Minor fixes :**
+
+* Dependencies upgrade
+* Typo fix in README
+
 # 1.0.1 (Aug. 13th 2017)
 
 ## **Minor fixes :**
