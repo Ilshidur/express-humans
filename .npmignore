@@ -1,9 +1,11 @@
 src/
 test/
 node_modules/
+
 .babelrc
 .editorconfig
 .eslintrc
-.jscsrc
+.travis.yml
+
+CHANGELOG.md
 gulpfile*
-yarn.lock
