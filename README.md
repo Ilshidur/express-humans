@@ -15,7 +15,11 @@
 
 ## Usage
 
-First run `npm install express-humans`, then :
+First run :
+
+`npm install express-humans` (both npm and Yarn locks are supported)
+
+then :
 
 ```javascript
 const humans = require('express-humans');
