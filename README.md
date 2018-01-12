@@ -82,7 +82,7 @@ Inspired of [express-robots](https://www.npmjs.com/package/express-robots).
 
 MIT License
 
-Copyright (c) 2017 **Nicolas COUTIN**
+Copyright (c) 2017-2018 **Nicolas COUTIN**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
