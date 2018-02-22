@@ -7,7 +7,7 @@
 [![dependency status][dependency-badge]][dependency-url]
 [![devdependency status][devdependency-badge]][devdependency-url]
 [![build status][build-badge]][build-url]
-[![Code Climate](https://api.codeclimate.com/v1/badges/88f5bf63731c1cc35f9e/maintainability)](https://codeclimate.com/github/Ilshidur/express-humans/maintainability)
+[![Code Climate][maintainability-badge]][maintainability-url]
 [![downloads][downloads-badge]][downloads-url]
 
 [![NPM][npm-stats-badge]][npm-stats-url]
@@ -113,6 +113,8 @@ SOFTWARE.
 [devdependency-url]: https://david-dm.org/ilshidur/express-humans#info=devDependencies
 [build-badge]: https://travis-ci.org/Ilshidur/express-humans.svg
 [build-url]: https://travis-ci.org/Ilshidur/express-humans
+[maintainability-badge]: https://api.codeclimate.com/v1/badges/88f5bf63731c1cc35f9e/maintainability
+[maintainability-url]: https://codeclimate.com/github/Ilshidur/express-humans/maintainability
 [downloads-badge]: https://img.shields.io/npm/dt/express-humans.svg
 [downloads-url]: https://www.npmjs.com/package/express-humans
 [npm-stats-badge]: https://nodei.co/npm/express-humans.png?downloads=true&downloadRank=true
