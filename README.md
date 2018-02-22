@@ -7,6 +7,7 @@
 [![dependency status][dependency-badge]][dependency-url]
 [![devdependency status][devdependency-badge]][devdependency-url]
 [![build status][build-badge]][build-url]
+[![Code Climate](https://api.codeclimate.com/v1/badges/88f5bf63731c1cc35f9e/maintainability)](https://codeclimate.com/github/Ilshidur/express-humans/maintainability)
 [![downloads][downloads-badge]][downloads-url]
 
 [![NPM][npm-stats-badge]][npm-stats-url]
