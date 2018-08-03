@@ -1,5 +1,11 @@
 # league-sprites - change log
 
+# 2.0.0 (Aug. 3rd 2018)
+
+## **Major changes :**
+
+* Migrate to native ES8 code, without gulp & Babel
+
 # 1.0.3 (Oct. 9th 2017)
 
 ## **Minor fixes :**
