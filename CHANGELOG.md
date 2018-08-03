@@ -1,5 +1,11 @@
 # league-sprites - change log
 
+# 2.0.1 (Aug. 3rd 2018)
+
+## **Minor changes :**
+
+* Removed unused dependencies
+
 # 2.0.0 (Aug. 3rd 2018)
 
 ## **Major changes :**

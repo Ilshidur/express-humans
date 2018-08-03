@@ -1,6 +1,6 @@
 {
   "name": "express-humans",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Express middleware for generating/responding a humans.txt file.",
   "main": "src/index.js",
   "scripts": {
