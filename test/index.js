@@ -1,12 +1,12 @@
-var fs = require('fs');
-var path = require('path');
-var expect = require('chai').expect;
-var supertest = require('supertest');
-var figlet = require('figlet');
-var humans = require('..');
+const fs = require('fs');
+const path = require('path');
+const expect = require('chai').expect;
+const supertest = require('supertest');
+const figlet = require('figlet');
+const humans = require('..');
 
-var route = '/humans.txt';
-var header = figlet.textSync('Humans.txt') + '\n\n';
+const route = '/humans.txt';
+const header = figlet.textSync('Humans.txt') + '\n\n';
 
 describe('express-humans :', function() {
   it('should output empty string if no config', function(done) {

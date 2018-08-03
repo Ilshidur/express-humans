@@ -1,6 +1,6 @@
-import fs from 'fs';
-import express from 'express';
-import humans from 'humans-generator';
+const fs = require('fs');
+const express = require('express');
+const humans = require('humans-generator');
 
 const route = '/humans.txt';
 
@@ -63,4 +63,4 @@ function generateContent(config) {
   });
 }
 
-export default middleware;
+module.exports = middleware;
