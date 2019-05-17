@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Ilshidur/express-humans#readme",
   "dependencies": {
-    "express": "4.16.4",
+    "express": "4.17.0",
     "figlet": "1.2.1",
     "humans-generator": "2.1.1"
   },
