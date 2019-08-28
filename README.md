@@ -1,6 +1,7 @@
 # express-humans
 
 ![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
+[![Build Status][build-badge]][build-url]
 
 [![npm version][version-badge]][version-url]
 [![Known Vulnerabilities][vulnerabilities-badge]][vulnerabilities-url]
@@ -103,6 +104,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[build-badge]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FIlshidur%2Fexpress-humans%2Fbadge&style=flat
+[build-url]: https://actions-badge.atrox.dev/Ilshidur/express-humans/goto
 [version-badge]: https://img.shields.io/npm/v/express-humans.svg
 [version-url]: https://www.npmjs.com/package/express-humans
 [vulnerabilities-badge]: https://snyk.io/test/npm/express-humans/badge.svg
