@@ -28,7 +28,7 @@
     "express": "4.17.1",
     "figlet": "1.2.3",
     "humans-generator": "2.1.1",
-    "snyk": "^1.189.0"
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "chai": "4.2.0",
